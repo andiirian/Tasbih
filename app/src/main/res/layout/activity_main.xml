@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgTasbih"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@mipmap/subhanallah"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+
+    <Button
+
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="reset"
+        android:text="Reset"
+        android:layout_margin="16dp"
+        android:background="@color/green" />
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="0"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/btnKlik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:onClick="klik"
+        android:text="Tasbih"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>
